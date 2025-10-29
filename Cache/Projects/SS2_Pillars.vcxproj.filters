@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Game.Gen.cpp" />
+    <ClInclude Include="..\..\Source\Game.Gen.h" />
+    <Filter Include="Game">
+      <UniqueIdentifier>{BAC49E67-9A74-4D55-B69F-2DDBBEE2F669}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Game\ExitOnEsc.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Game\ExitOnEsc.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Game\FreeCamera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Game\FreeCamera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <Filter Include="obj">
+      <UniqueIdentifier>{E2744FDC-C839-40DD-8D5F-E5A14E4F4160}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\obj\Game.csproj.nuget.dgspec.json">
+      <Filter>obj</Filter>
+    </None>
+    <None Include="..\..\Source\obj\Game.csproj.nuget.g.props">
+      <Filter>obj</Filter>
+    </None>
+    <None Include="..\..\Source\obj\Game.csproj.nuget.g.targets">
+      <Filter>obj</Filter>
+    </None>
+    <None Include="..\..\Source\obj\project.assets.json">
+      <Filter>obj</Filter>
+    </None>
+    <None Include="..\..\Source\obj\project.nuget.cache">
+      <Filter>obj</Filter>
+    </None>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{88E50798-E10A-4E01-92B9-0AEBEC14BC18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Properties\launchSettings.json">
+      <Filter>Properties</Filter>
+    </None>
+  </ItemGroup>
+</Project>

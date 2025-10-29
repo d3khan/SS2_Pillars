@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Editor.Windows.Debug|x64">
+      <Configuration>Editor.Windows.Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor.Windows.Development|x64">
+      <Configuration>Editor.Windows.Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor.Windows.Release|x64">
+      <Configuration>Editor.Windows.Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game.Windows.Debug|x64">
+      <Configuration>Game.Windows.Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game.Windows.Development|x64">
+      <Configuration>Game.Windows.Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game.Windows.Release|x64">
+      <Configuration>Game.Windows.Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D5BBFDE1-6F25-4387-82D8-E4A814113216}</ProjectGuid>
+    <RootNamespace>SS2_Pillars</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <TargetRuntime>Native</TargetRuntime>
+    <CharacterSet>Unicode</CharacterSet>
+    <Keyword>MakeFileProj</Keyword>
+    <ResolveNuGetPackages>false</ResolveNuGetPackages>
+    <VCTargetsPath Condition="$(Configuration.Contains('Linux'))">./</VCTargetsPath>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Development|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Development|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Debug|x64'">
+    <IntDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug</IntDir>
+    <OutDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameEditorTarget\Windows\x64\Debug</OutDir>
+    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/tinyexr;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <NMakeBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameEditorTarget -build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameEditorTarget -rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameEditorTarget -clean</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameEditorTarget\Windows\x64\Debug\SS2_Pillars.dll</NMakeOutput>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_WIN32;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN64;PLATFORM_WINDOWS;WINVER=0x0601;UNICODE;_UNICODE;USE_EDITOR;BUILD_DEBUG;NDEBUG;TRACY_ENABLE;TRACY_ON_DEMAND;TRACY_NO_INVARIANT_CHECK;TRACY_NO_FRAME_IMAGE;TRACY_DBGHELP_LOCK=DbgHelp;COMPILE_WITH_PROFILER;COMPILE_WITH_DEBUG_DRAW;WITH_VEHICLE;COMPILE_WITH_PHYSX;PX_PHYSX_STATIC_LIB;WITH_CLOTH;NV_CLOTH_IMPORT=;COMPILE_WITH_PHYSICS_COOKING;COMPILE_WITH_AUDIO_TOOL;COMPILE_WITH_OGG_VORBIS;COMPILE_WITH_DIRECTXTEX;COMPILE_WITH_ASTC;COMPILE_WITH_TEXTURE_TOOL;COMPILE_WITH_MODEL_TOOL;USE_ASSIMP;USE_OPEN_FBX;COMPILE_WITH_ASSETS_IMPORTER;GPU_ENABLE_DIAGNOSTICS;GRAPHICS_API_NULL;GRAPHICS_API_DIRECTX11;GRAPHICS_API_DIRECTX12;USE_PIX;COMPILE_WITH_D3D_SHADER_COMPILER;COMPILE_WITH_SHADER_COMPILER;COMPILE_WITH_DX_SHADER_COMPILER;COMPILE_WITH_VK_SHADER_COMPILER;COMPILE_WITH_SHADER_CACHE_MANAGER;COMPILE_WITH_GPU_PARTICLES;COMPILE_WITH_PARTICLE_GPU_GRAPH;COMPILE_WITH_MATERIAL_GRAPH;COMPILE_WITH_ASSETS_EXPORTER;DOTNET_HOST_RUNTIME_IDENTIFIER=win-x64;DOTNET_HOST_CORECLR;COMPILE_WITH_CSG_BUILDER;COMPILE_WITH_NAV_MESH_BUILDER;AUDIO_API_NONE;AUDIO_API_OPENAL;VIDEO_API_MF;RENDER2D_USE_LINE_AA;COMPILE_WITH_NETWORKING;FLAX_1;FLAX_1_10;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/tinyexr;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</NMakeIncludeSearchPath>
+    <AdditionalOptions>$(AdditionalOptions) /std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Development|x64'">
+    <IntDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameEditorTarget\Windows\x64\Development</IntDir>
+    <OutDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameEditorTarget\Windows\x64\Development</OutDir>
+    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/tinyexr;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <NMakeBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameEditorTarget -build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameEditorTarget -rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameEditorTarget -clean</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameEditorTarget\Windows\x64\Development\SS2_Pillars.dll</NMakeOutput>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_WIN32;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN64;PLATFORM_WINDOWS;WINVER=0x0601;UNICODE;_UNICODE;USE_EDITOR;BUILD_DEVELOPMENT;NDEBUG;TRACY_ENABLE;TRACY_ON_DEMAND;TRACY_NO_INVARIANT_CHECK;TRACY_NO_FRAME_IMAGE;TRACY_DBGHELP_LOCK=DbgHelp;COMPILE_WITH_PROFILER;COMPILE_WITH_DEBUG_DRAW;WITH_VEHICLE;COMPILE_WITH_PHYSX;PX_PHYSX_STATIC_LIB;WITH_CLOTH;NV_CLOTH_IMPORT=;COMPILE_WITH_PHYSICS_COOKING;COMPILE_WITH_AUDIO_TOOL;COMPILE_WITH_OGG_VORBIS;COMPILE_WITH_DIRECTXTEX;COMPILE_WITH_ASTC;COMPILE_WITH_TEXTURE_TOOL;COMPILE_WITH_MODEL_TOOL;USE_ASSIMP;USE_OPEN_FBX;COMPILE_WITH_ASSETS_IMPORTER;GRAPHICS_API_NULL;GRAPHICS_API_DIRECTX11;GRAPHICS_API_DIRECTX12;USE_PIX;COMPILE_WITH_D3D_SHADER_COMPILER;COMPILE_WITH_SHADER_COMPILER;COMPILE_WITH_DX_SHADER_COMPILER;COMPILE_WITH_VK_SHADER_COMPILER;COMPILE_WITH_SHADER_CACHE_MANAGER;COMPILE_WITH_GPU_PARTICLES;COMPILE_WITH_PARTICLE_GPU_GRAPH;COMPILE_WITH_MATERIAL_GRAPH;COMPILE_WITH_ASSETS_EXPORTER;DOTNET_HOST_RUNTIME_IDENTIFIER=win-x64;DOTNET_HOST_CORECLR;COMPILE_WITH_CSG_BUILDER;COMPILE_WITH_NAV_MESH_BUILDER;AUDIO_API_NONE;AUDIO_API_OPENAL;VIDEO_API_MF;RENDER2D_USE_LINE_AA;COMPILE_WITH_NETWORKING;FLAX_1;FLAX_1_10;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/tinyexr;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</NMakeIncludeSearchPath>
+    <AdditionalOptions>$(AdditionalOptions) /std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Release|x64'">
+    <IntDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameEditorTarget\Windows\x64\Release</IntDir>
+    <OutDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameEditorTarget\Windows\x64\Release</OutDir>
+    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/tinyexr;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <NMakeBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameEditorTarget -build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameEditorTarget -rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameEditorTarget -clean</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameEditorTarget\Windows\x64\Release\SS2_Pillars.dll</NMakeOutput>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_WIN32;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN64;PLATFORM_WINDOWS;WINVER=0x0601;UNICODE;_UNICODE;USE_EDITOR;BUILD_RELEASE;NDEBUG;TRACY_ENABLE;TRACY_ON_DEMAND;TRACY_NO_INVARIANT_CHECK;TRACY_NO_FRAME_IMAGE;TRACY_DBGHELP_LOCK=DbgHelp;COMPILE_WITH_PROFILER;COMPILE_WITH_DEBUG_DRAW;WITH_VEHICLE;COMPILE_WITH_PHYSX;PX_PHYSX_STATIC_LIB;WITH_CLOTH;NV_CLOTH_IMPORT=;COMPILE_WITH_PHYSICS_COOKING;COMPILE_WITH_AUDIO_TOOL;COMPILE_WITH_OGG_VORBIS;COMPILE_WITH_DIRECTXTEX;COMPILE_WITH_ASTC;COMPILE_WITH_TEXTURE_TOOL;COMPILE_WITH_MODEL_TOOL;USE_ASSIMP;USE_OPEN_FBX;COMPILE_WITH_ASSETS_IMPORTER;GRAPHICS_API_NULL;GRAPHICS_API_DIRECTX11;GRAPHICS_API_DIRECTX12;COMPILE_WITH_D3D_SHADER_COMPILER;COMPILE_WITH_SHADER_COMPILER;COMPILE_WITH_DX_SHADER_COMPILER;COMPILE_WITH_VK_SHADER_COMPILER;COMPILE_WITH_SHADER_CACHE_MANAGER;COMPILE_WITH_GPU_PARTICLES;COMPILE_WITH_PARTICLE_GPU_GRAPH;COMPILE_WITH_MATERIAL_GRAPH;COMPILE_WITH_ASSETS_EXPORTER;DOTNET_HOST_RUNTIME_IDENTIFIER=win-x64;DOTNET_HOST_CORECLR;COMPILE_WITH_CSG_BUILDER;COMPILE_WITH_NAV_MESH_BUILDER;AUDIO_API_NONE;AUDIO_API_OPENAL;VIDEO_API_MF;RENDER2D_USE_LINE_AA;COMPILE_WITH_NETWORKING;FLAX_1;FLAX_1_10;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/tinyexr;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</NMakeIncludeSearchPath>
+    <AdditionalOptions>$(AdditionalOptions) /std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Debug|x64'">
+    <IntDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameTarget\Windows\x64\Debug</IntDir>
+    <OutDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Debug</OutDir>
+    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <NMakeBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameTarget -build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameTarget -rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameTarget -clean</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Debug\SS2_Pillars.dll</NMakeOutput>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_WIN32;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN64;PLATFORM_WINDOWS;WINVER=0x0601;UNICODE;_UNICODE;BUILD_DEBUG;NDEBUG;TRACY_ENABLE;TRACY_ON_DEMAND;TRACY_NO_INVARIANT_CHECK;TRACY_NO_FRAME_IMAGE;TRACY_DBGHELP_LOCK=DbgHelp;COMPILE_WITH_PROFILER;WITH_VEHICLE;COMPILE_WITH_PHYSX;PX_PHYSX_STATIC_LIB;WITH_CLOTH;NV_CLOTH_IMPORT=;COMPILE_WITH_PHYSICS_COOKING;COMPILE_WITH_AUDIO_TOOL;COMPILE_WITH_OGG_VORBIS;COMPILE_WITH_DIRECTXTEX;COMPILE_WITH_TEXTURE_TOOL;COMPILE_WITH_MODEL_TOOL;GPU_ENABLE_DIAGNOSTICS;GRAPHICS_API_NULL;GRAPHICS_API_DIRECTX11;GRAPHICS_API_DIRECTX12;USE_PIX;COMPILE_WITH_GPU_PARTICLES;DOTNET_HOST_RUNTIME_IDENTIFIER=win-x64;DOTNET_HOST_CORECLR;COMPILE_WITH_NAV_MESH_BUILDER;AUDIO_API_NONE;AUDIO_API_OPENAL;VIDEO_API_MF;RENDER2D_USE_LINE_AA;COMPILE_WITH_NETWORKING;FLAX_1;FLAX_1_10;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</NMakeIncludeSearchPath>
+    <AdditionalOptions>$(AdditionalOptions) /std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Development|x64'">
+    <IntDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameTarget\Windows\x64\Development</IntDir>
+    <OutDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Development</OutDir>
+    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <NMakeBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameTarget -build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameTarget -rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameTarget -clean</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Development\SS2_Pillars.dll</NMakeOutput>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_WIN32;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN64;PLATFORM_WINDOWS;WINVER=0x0601;UNICODE;_UNICODE;BUILD_DEVELOPMENT;NDEBUG;TRACY_ENABLE;TRACY_ON_DEMAND;TRACY_NO_INVARIANT_CHECK;TRACY_NO_FRAME_IMAGE;TRACY_DBGHELP_LOCK=DbgHelp;COMPILE_WITH_PROFILER;WITH_VEHICLE;COMPILE_WITH_PHYSX;PX_PHYSX_STATIC_LIB;WITH_CLOTH;NV_CLOTH_IMPORT=;COMPILE_WITH_PHYSICS_COOKING;COMPILE_WITH_AUDIO_TOOL;COMPILE_WITH_OGG_VORBIS;COMPILE_WITH_DIRECTXTEX;COMPILE_WITH_TEXTURE_TOOL;COMPILE_WITH_MODEL_TOOL;GRAPHICS_API_NULL;GRAPHICS_API_DIRECTX11;GRAPHICS_API_DIRECTX12;USE_PIX;COMPILE_WITH_GPU_PARTICLES;DOTNET_HOST_RUNTIME_IDENTIFIER=win-x64;DOTNET_HOST_CORECLR;COMPILE_WITH_NAV_MESH_BUILDER;AUDIO_API_NONE;AUDIO_API_OPENAL;VIDEO_API_MF;RENDER2D_USE_LINE_AA;COMPILE_WITH_NETWORKING;FLAX_1;FLAX_1_10;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/WinPixEventRuntime;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</NMakeIncludeSearchPath>
+    <AdditionalOptions>$(AdditionalOptions) /std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Release|x64'">
+    <IntDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameTarget\Windows\x64\Release</IntDir>
+    <OutDir>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Release</OutDir>
+    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <NMakeBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameTarget -build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameTarget -rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\..\..\..\..\..\..\AppData\Roaming\Flax\Flax_1.10\Binaries\Tools\Flax.Build -log -mutex -workspace=C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameTarget -clean</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Release\SS2_Pillars.dll</NMakeOutput>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_WIN32;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN64;PLATFORM_WINDOWS;WINVER=0x0601;UNICODE;_UNICODE;BUILD_RELEASE;NDEBUG;WITH_VEHICLE;COMPILE_WITH_PHYSX;PX_PHYSX_STATIC_LIB;WITH_CLOTH;NV_CLOTH_IMPORT=;COMPILE_WITH_PHYSICS_COOKING;COMPILE_WITH_AUDIO_TOOL;COMPILE_WITH_OGG_VORBIS;COMPILE_WITH_DIRECTXTEX;COMPILE_WITH_TEXTURE_TOOL;COMPILE_WITH_MODEL_TOOL;GRAPHICS_API_NULL;GRAPHICS_API_DIRECTX11;GRAPHICS_API_DIRECTX12;COMPILE_WITH_GPU_PARTICLES;DOTNET_HOST_RUNTIME_IDENTIFIER=win-x64;DOTNET_HOST_CORECLR;COMPILE_WITH_NAV_MESH_BUILDER;AUDIO_API_NONE;AUDIO_API_OPENAL;VIDEO_API_MF;RENDER2D_USE_LINE_AA;COMPILE_WITH_NETWORKING;FLAX_1;FLAX_1_10;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty;C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source/ThirdParty/PhysX;C:\Program Files/dotnet/packs/Microsoft.NETCore.App.Host.win-x64/9.0.10/runtimes/win-x64/native;C:\Users\Emem\AppData\Roaming\Flax\Flax_1.10\Source\ThirdParty\freetype</NMakeIncludeSearchPath>
+    <AdditionalOptions>$(AdditionalOptions) /std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Game.Gen.cpp"/>
+    <ClInclude Include="..\..\Source\Game.Gen.h"/>
+    <ClCompile Include="..\..\Source\Game\ExitOnEsc.cpp"/>
+    <ClInclude Include="..\..\Source\Game\ExitOnEsc.h"/>
+    <ClCompile Include="..\..\Source\Game\FreeCamera.cpp"/>
+    <ClInclude Include="..\..\Source\Game\FreeCamera.h"/>
+    <None Include="..\..\Source\obj\Game.csproj.nuget.dgspec.json"/>
+    <None Include="..\..\Source\obj\Game.csproj.nuget.g.props"/>
+    <None Include="..\..\Source\obj\Game.csproj.nuget.g.targets"/>
+    <None Include="..\..\Source\obj\project.assets.json"/>
+    <None Include="..\..\Source\obj\project.nuget.cache"/>
+    <None Include="..\..\Source\Properties\launchSettings.json"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);FLAXENGINE_API=;GAME_API=</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <AdditionalOptions>$(AdditionalOptions)</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

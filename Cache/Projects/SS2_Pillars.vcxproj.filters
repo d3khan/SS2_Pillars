@@ -4,7 +4,7 @@
     <ClCompile Include="..\..\Source\Game.Gen.cpp" />
     <ClInclude Include="..\..\Source\Game.Gen.h" />
     <Filter Include="Game">
-      <UniqueIdentifier>{BAC49E67-9A74-4D55-B69F-2DDBBEE2F669}</UniqueIdentifier>
+      <UniqueIdentifier>{3915B6E3-9C31-4B3F-BE11-76636E52C3EB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Game\ExitOnEsc.cpp">
       <Filter>Game</Filter>
@@ -19,7 +19,7 @@
       <Filter>Game</Filter>
     </ClInclude>
     <Filter Include="obj">
-      <UniqueIdentifier>{E2744FDC-C839-40DD-8D5F-E5A14E4F4160}</UniqueIdentifier>
+      <UniqueIdentifier>{16697B72-A854-44FE-9931-7E7BE0BD18D4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\obj\Game.csproj.nuget.dgspec.json">
       <Filter>obj</Filter>
@@ -37,7 +37,7 @@
       <Filter>obj</Filter>
     </None>
     <Filter Include="Properties">
-      <UniqueIdentifier>{88E50798-E10A-4E01-92B9-0AEBEC14BC18}</UniqueIdentifier>
+      <UniqueIdentifier>{BD4BCB7A-BA4C-400E-9683-BE2CC4505F99}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Properties\launchSettings.json">
       <Filter>Properties</Filter>

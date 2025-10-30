@@ -3,7 +3,7 @@
     "Game": {
       "commandName": "Executable",
       "workingDirectory": "C:/Users/Emem/Documents/.kairos/projects/Mine/flax/SS2_Pillars",
-      "executablePath": "C:/Users/Emem/AppData/Roaming/Flax/Flax_1.10/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "executablePath": "C:/Users/Emem/AppData/Roaming/Flax/Flax_1.11/Binaries/Editor/Win64/Development/FlaxEditor.exe",
       "commandLineArgs": "-project \"C:/Users/Emem/Documents/.kairos/projects/Mine/flax/SS2_Pillars\"",
       "nativeDebugging": false
     }

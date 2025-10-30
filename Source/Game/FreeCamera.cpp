@@ -2,10 +2,10 @@
 
 FreeCamera::FreeCamera(const SpawnParams& params) : Script(params),
 
-spd(100.0f), spdMul(1.0f), camSmooth(20.0f),
+spd(500.0f), spdMul(1.0f), camSmooth(20.0f),
 cam(nullptr), 
 pitch(0.0f), yaw(0.0f), // x and y rotations
-mouseSensitivity(0.1f)
+mouseSensitivity(0.2f)
 
 {
 	// Enable ticking OnUpdate function
@@ -62,7 +62,7 @@ void FreeCamera::OnUpdate() {
 	if (Input::GetKey(KeyboardKeys::E)) moveDir += Vector3::Up;
 	if (Input::GetKey(KeyboardKeys::Q)) moveDir += Vector3::Down;
 
-	spd = 100.f; // Reset speed to default
+	spd = 500.f; // Reset speed to default
 	if (Input::GetKey(KeyboardKeys::Shift)) spd *= 2; // Speed boost
 	
 

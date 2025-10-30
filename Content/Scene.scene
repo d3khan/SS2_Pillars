@@ -130,7 +130,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "00000000000000000000000000000000",
+						"Material": "7a15fd0c436856c63bbad3ac8c9678ec",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -165,7 +165,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "00000000000000000000000000000000",
+						"Material": "7a15fd0c436856c63bbad3ac8c9678ec",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -200,7 +200,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "00000000000000000000000000000000",
+						"Material": "7a15fd0c436856c63bbad3ac8c9678ec",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -235,7 +235,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "00000000000000000000000000000000",
+						"Material": "7a15fd0c436856c63bbad3ac8c9678ec",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -6042,7 +6042,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"Material": "3d9b3a894c3b286d13391c8c0f67733c",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -6071,7 +6071,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "00000000000000000000000000000000",
+						"Material": "1305b0594a69121c9d6d569b40dd28dc",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -6150,9 +6150,15 @@
 			"Name": "Camera",
 			"Transform": {
 				"Translation": {
-					"X": -198.75326538085938,
-					"Y": 196.89071655273438,
-					"Z": 190.70037841796875
+					"X": -1082.7532958984375,
+					"Y": 223.89071655273438,
+					"Z": -542.2996215820313
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.3420201539993286,
+					"Z": 0.0,
+					"W": 0.9396927356719971
 				}
 			},
 			"StaticFlags": 0

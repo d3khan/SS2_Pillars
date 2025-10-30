@@ -68,8 +68,11 @@ void FreeCamera::OnUpdate() {
 
 	// Adjust speed multiplier with mouse scroll
 	float mScroll = Input::GetMouseScrollDelta();
-	if (mScroll > 0.0f) spdMul += 0.1f;
-	if (mScroll < 0.0f) spdMul -= 0.1f;
+	if (mScroll > 0.0f) spdMul += 0.2f;
+	if (mScroll < 0.0f) spdMul -= 0.2f;
+
+	if (spdMul < 0.1f) spdMul = 0.2f; // Minimum speed multiplier
+	if (spdMul > 10.0f) spdMul = 10.0f; // Maximum speed multiplier
 
 	//DebugLog::Log(String::Format(TEXT("MouseScrollDelta: {0}, speedMultiplier: {1}"), mScroll, spdMul)); // Debug dynamic speed
 

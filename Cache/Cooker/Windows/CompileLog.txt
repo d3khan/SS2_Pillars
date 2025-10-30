@@ -1,0 +1,141 @@
+[00:00:008] Flax.Build 1.0.0
+[00:00:010]   Arguments: log -logfile=C:\Users/Emem/Documents/.kairos/projects/Mine/flax/SS2_Pillars/Cache/Cooker/Windows/CompileLog.txt -build -mutex -buildtargets=GameTarget -platform=Windows -arch=x64 -configuration=Release -aotMode=None -dotnet=8
+[00:00:010]   Workspace: C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars
+[00:00:010]   Engine: C:\Users\Emem\AppData\Roaming\Flax\Flax_1.11
+[00:00:010]   .NET 9.0.10
+[00:00:013] Loading project file from "C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\SS2_Pillars.flaxproj"...
+[00:00:045] Loading project file from "C:\Users\Emem\AppData\Roaming\Flax\Flax_1.11\Flax.flaxproj"...
+[00:00:047] Loaded project Flax, version 1.11.6802
+[00:00:047] Loaded project SS2_Pillars, version 1.0
+[00:00:068] Engine build version: 1.11.6802
+[00:00:092] Building targets...
+[00:00:113] Missing Android SDK. Cannot build for Android platform.
+[00:00:114] Missing Linux Toolchain. Cannot build for Linux platform.
+[00:00:121] Found Windows SDK v10_0_26100_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:137] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
+[00:00:140] Found Windows toolset v144 at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207
+[00:00:149] Building target GameTarget in Release for Windows x64
+[00:00:155] Using Windows Toolset v144 (C:\Program Files (x86)\Windows Kits\10\)
+[00:00:155] Using Windows SDK 10.0.26100.0 (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64)
+[00:00:159] Building referenced target Flax
+[00:00:166] Parsing API bindings for Platform (FlaxEngine)
+[00:00:365] Parsing API bindings for Core (FlaxEngine)
+[00:01:437] Parsing API bindings for Physics (FlaxEngine)
+[00:01:620] Parsing API bindings for TextureTool (FlaxEngine)
+[00:01:641] Parsing API bindings for ModelTool (FlaxEngine)
+[00:01:666] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:01:666] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:01:669] Parsing API bindings for Graphics (FlaxEngine)
+[00:02:032] Parsing API bindings for Utilities (FlaxEngine)
+[00:02:049] Parsing API bindings for Particles (FlaxEngine)
+[00:02:071] Parsing API bindings for Content (FlaxEngine)
+[00:02:184] Parsing API bindings for Renderer (FlaxEngine)
+[00:02:243] Found the following .NET SDK versions: 9.0.306, 8.0.408
+[00:02:243] Found the following .NET runtime versions: 9.0.10, 8.0.21, 8.0.15
+[00:02:247] Using .NET SDK 8.0.408, runtime 8.0.21 (C:\Program Files\dotnet\)
+[00:02:248]   - Host Runtime for Windows x64
+[00:02:248]   - Host Runtime for Windows x86
+[00:02:248]   - Host Runtime for Windows ARM64
+[00:02:251] Parsing API bindings for Scripting (FlaxEngine)
+[00:02:302] Parsing API bindings for Serialization (FlaxEngine)
+[00:02:309] Parsing API bindings for Level (FlaxEngine)
+[00:02:486] Parsing API bindings for Navigation (FlaxEngine)
+[00:02:506] Parsing API bindings for AI (FlaxEngine)
+[00:02:534] Parsing API bindings for Visject (FlaxEngine)
+[00:02:549] Parsing API bindings for Animations (FlaxEngine)
+[00:02:656] Parsing API bindings for Audio (FlaxEngine)
+[00:02:674] Parsing API bindings for Video (FlaxEngine)
+[00:02:677] Parsing API bindings for Debug (FlaxEngine)
+[00:02:746] Parsing API bindings for Foliage (FlaxEngine)
+[00:02:792] Parsing API bindings for Render2D (FlaxEngine)
+[00:02:870] Parsing API bindings for Input (FlaxEngine)
+[00:02:910] Parsing API bindings for Networking (FlaxEngine)
+[00:02:970] Parsing API bindings for Streaming (FlaxEngine)
+[00:02:976] Parsing API bindings for Terrain (FlaxEngine)
+[00:02:995] Parsing API bindings for Threading (FlaxEngine)
+[00:03:005] Parsing API bindings for Localization (FlaxEngine)
+[00:03:020] Parsing API bindings for UI (FlaxEngine)
+[00:03:026] Parsing API bindings for Online (FlaxEngine)
+[00:03:034] Parsing API bindings for Engine (FlaxEngine)
+[00:03:055] Building module Platform
+[00:03:058] Building module fmt
+[00:03:059] Building module Core
+[00:03:059] Building module PhysX
+[00:03:059] Building module NvCloth
+[00:03:059] Building module Physics
+[00:03:059] Building module lz4
+[00:03:059] Building module minimp3
+[00:03:059] Building module ogg
+[00:03:059] Building module vorbis
+[00:03:059] Building module AudioTool
+[00:03:059] Building module DirectXTex
+[00:03:059] Building module TextureTool
+[00:03:059] Building module ModelTool
+[00:03:059] Building module GraphicsDeviceNull
+[00:03:059] Building module nvapi
+[00:03:059] Building module AGS
+[00:03:059] Building module GraphicsDeviceDX11
+[00:03:059] Building module GraphicsDeviceDX12
+[00:03:059] Building module Graphics
+[00:03:059] Building module Utilities
+[00:03:059] Building module Particles
+[00:03:059] Building module Content
+[00:03:059] Building module Renderer
+[00:03:059] Building module nethost
+[00:03:059] Building module Scripting
+[00:03:059] Building module rapidjson
+[00:03:059] Building module Serialization
+[00:03:059] Building module Level
+[00:03:059] Building module recastnavigation
+[00:03:059] Building module Navigation
+[00:03:059] Building module AI
+[00:03:059] Building module Visject
+[00:03:059] Building module Animations
+[00:03:059] Building module Audio
+[00:03:059] Building module Video
+[00:03:059] Building module Debug
+[00:03:059] Building module Foliage
+[00:03:059] Building module freetype
+[00:03:059] Building module Render2D
+[00:03:059] Building module Input
+[00:03:059] Building module Networking
+[00:03:059] Building module Streaming
+[00:03:060] Building module Terrain
+[00:03:060] Building module Threading
+[00:03:060] Building module Localization
+[00:03:060] Building module UI
+[00:03:060] Building module Online
+[00:03:060] Building module Engine
+[00:03:061] Skipping build for target FlaxGame
+[00:03:072] Parsing API bindings for Game (Game)
+[00:03:109] Generating binary module bindings for Game
+[00:03:112] Skipped saving file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source\Game.Gen.h
+[00:03:112] Skipped saving file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source\Game.Gen.cpp
+[00:03:118] Skipped saving file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Source\Game.Gen.cs
+[00:03:118] Building module Game
+[00:03:125] Generating API bindings for Game (Game)
+[00:03:148] Saved file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameTarget\Windows\x64\Release\Game\Game.Bindings.Gen.cpp
+[00:03:164] Saved file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameTarget\Windows\x64\Release\Game\Game.Bindings.Gen.cs
+[00:03:198] Saved file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameTarget\Windows\x64\Release\Game\Game.dll.response
+[00:03:207] Saved file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Cache/Intermediate\GameTarget\Windows\x64\Release\Game.CSharp.response
+[00:03:241] Saved file to C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Release\GameTarget.Build.json
+[00:03:251] Found 9 valid and 0 invalid actions in Task Graph cache
+[00:03:252] 
+[00:03:252] Total 8 tasks
+[00:03:254] Executing 8 tasks using 8 threads
+[00:03:259] Compiling C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Release\Game.CSharp.dll
+[00:03:388] C:\Users\Emem\AppData\Roaming\Flax\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll
+[00:03:388] C:\Users\Emem\AppData\Roaming\Flax\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.xml
+[00:03:400] 1 File(s) copied
+[00:03:400] 1 File(s) copied
+[00:03:439] Game.Bindings.Gen.cpp
+[00:03:447] Game.Gen.cpp
+[00:03:465] FreeCamera.cpp
+[00:03:477] ExitOnEsc.cpp
+[00:04:883] Linking C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Release\Game.dll
+[00:05:094]    Creating library C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Release\Game.lib and object C:\Users\Emem\Documents\.kairos\projects\Mine\flax\SS2_Pillars\Binaries\GameTarget\Windows\x64\Release\Game.exp
+[00:05:105] Generating code
+[00:05:258] Finished generating code
+[00:06:789] Done!
+[00:06:799] Total time: 00:00:06.8185785
+[00:06:799] End.

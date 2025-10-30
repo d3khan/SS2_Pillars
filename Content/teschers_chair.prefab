@@ -1,0 +1,323 @@
+{
+	"ID": "4cdaa2da4de87442488ff59c3ed1bd87",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6705,
+	"Data": [
+	{
+		"ID": "8544d0f0479bedfc73cced8bf653f27b",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "teachers_chair"
+	},
+	{
+		"ID": "4236a4fe45346b4b5c7c6fbb803bc459",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "8544d0f0479bedfc73cced8bf653f27b",
+		"Name": "leg_parent",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 50.0,
+				"Z": 0.0
+			},
+			"Scale": {
+				"X": 0.10000000149011612,
+				"Y": 1.0,
+				"Z": 0.10000000149011612
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "23fb78614af70eefb50f6abe993579e4",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "4236a4fe45346b4b5c7c6fbb803bc459",
+		"Name": "leg_child_1",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 1000.0
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "c15933ba4831ee811e49c58cbbeda689",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "4236a4fe45346b4b5c7c6fbb803bc459",
+		"Name": "leg_child_2",
+		"Transform": {
+			"Translation": {
+				"X": -1000.0,
+				"Y": 0.0,
+				"Z": 1000.0
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "19b95c344ed54d2501c712b0374f85ba",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "4236a4fe45346b4b5c7c6fbb803bc459",
+		"Name": "leg_child_3",
+		"Transform": {
+			"Translation": {
+				"X": -1000.0,
+				"Y": 0.0,
+				"Z": 0.0
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "14df162e413f7c0483d6caa7d72abd58",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "8544d0f0479bedfc73cced8bf653f27b",
+		"Name": "seat"
+	},
+	{
+		"ID": "9488461e454c8086f8edec9137d749b6",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "14df162e413f7c0483d6caa7d72abd58",
+		"Name": "seat_wood",
+		"Transform": {
+			"Translation": {
+				"X": -50.0,
+				"Y": 100.0,
+				"Z": 50.0
+			},
+			"Scale": {
+				"X": 1.0,
+				"Y": 0.09999992698431015,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "ab7d04794cb0d5b40f7f4d86b54b2d37",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "14df162e413f7c0483d6caa7d72abd58",
+		"Name": "seat_foam",
+		"Transform": {
+			"Translation": {
+				"X": -50.0,
+				"Y": 102.5,
+				"Z": 50.0
+			},
+			"Scale": {
+				"X": 1.100000023841858,
+				"Y": 0.25,
+				"Z": 1.0
+			}
+		},
+		"Model": "e573d5ca49210c5230e55ea7405519c8",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "92118d8147cb6a032a21c0a808be049c",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "8544d0f0479bedfc73cced8bf653f27b",
+		"Name": "back_rest"
+	},
+	{
+		"ID": "123d62644a3ae290ace538b3a01916bb",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "92118d8147cb6a032a21c0a808be049c",
+		"Name": "cylinder",
+		"Transform": {
+			"Translation": {
+				"X": -112.5,
+				"Y": 145.0,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.13052619993686676,
+				"W": 0.9914448857307434
+			},
+			"Scale": {
+				"X": 0.10000000149011612,
+				"Y": 1.0,
+				"Z": 0.10000000149011612
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "6514af5e4415872f4f602d8696250a61",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "92118d8147cb6a032a21c0a808be049c",
+		"Name": "cylinder 0",
+		"Transform": {
+			"Translation": {
+				"X": -112.5,
+				"Y": 145.0,
+				"Z": 100.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.13052619993686676,
+				"W": 0.9914448857307434
+			},
+			"Scale": {
+				"X": 0.10000000149011612,
+				"Y": 1.0,
+				"Z": 0.10000000149011612
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "44b0354747a6e45f901a56ab2bf6ac09",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "92118d8147cb6a032a21c0a808be049c",
+		"Name": "iron",
+		"Transform": {
+			"Translation": {
+				"X": -121.89319610595703,
+				"Y": 177.860107421875,
+				"Z": 48.73911666870117
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.13052619993686676,
+				"W": 0.9914448857307434
+			},
+			"Scale": {
+				"X": 0.05000000074505806,
+				"Y": 0.10000000149011612,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "eb8b01814191ae3b353fe1920920fcfb",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "92118d8147cb6a032a21c0a808be049c",
+		"Name": "iron 0",
+		"Transform": {
+			"Translation": {
+				"X": -116.89319610595703,
+				"Y": 157.860107421875,
+				"Z": 48.73911666870117
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.13052619993686676,
+				"W": 0.9914448857307434
+			},
+			"Scale": {
+				"X": 0.05000000074505806,
+				"Y": 0.10000000149011612,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

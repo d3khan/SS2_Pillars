@@ -25,6 +25,7 @@ DECLARE_SCRIPTING_TYPE(FreeCamera);
         API_FIELD() float camSmooth;
 		API_FIELD() float mouseSensitivity;
         API_FIELD() Camera *cam;
+		API_FIELD() float spdMul;
 
     void OnEnable() override;
     void OnDisable() override;

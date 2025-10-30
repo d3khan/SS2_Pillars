@@ -2,7 +2,7 @@
 
 FreeCamera::FreeCamera(const SpawnParams& params) : Script(params),
 
-spd(100.0f), camSmooth(20.0f), 
+spd(100.0f), spdMul(1.0f), camSmooth(20.0f),
 cam(nullptr), 
 pitch(0.0f), yaw(0.0f), // x and y rotations
 mouseSensitivity(0.1f)
@@ -41,7 +41,7 @@ void FreeCamera::OnUpdate() {
 	yaw += mouseDelta.X * mouseSensitivity;
 	pitch += mouseDelta.Y * mouseSensitivity;
 
-	DebugLog::Log(String::Format(TEXT("Mouse Delta: {0}, {1}"), yaw, pitch)); // Debug mouse delta
+	//DebugLog::Log(String::Format(TEXT("Mouse Delta: {0}, {1}"), yaw, pitch)); // Debug mouse delta
 
 	pitch = Math::Clamp(pitch, -89.0f, 89.0f); // To avoid gimbal lock
 
@@ -62,8 +62,19 @@ void FreeCamera::OnUpdate() {
 	if (Input::GetKey(KeyboardKeys::E)) moveDir += Vector3::Up;
 	if (Input::GetKey(KeyboardKeys::Q)) moveDir += Vector3::Down;
 
+	spd = 100.f; // Reset speed to default
+	if (Input::GetKey(KeyboardKeys::Shift)) spd *= 2; // Speed boost
+	
+
+	// Adjust speed multiplier with mouse scroll
+	float mScroll = Input::GetMouseScrollDelta();
+	if (mScroll > 0.0f) spdMul += 0.1f;
+	if (mScroll < 0.0f) spdMul -= 0.1f;
+
+	//DebugLog::Log(String::Format(TEXT("MouseScrollDelta: {0}, speedMultiplier: {1}"), mScroll, spdMul)); // Debug dynamic speed
+
 	moveDir.Normalize(); // normalization removes spd effect so it comes first
-	moveDir *= spd;
+	moveDir *= spd * spdMul;
 
 	if ( (moveDir != Vector3::Zero) && cam) {
 

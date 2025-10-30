@@ -1,12 +1,12 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6401,
+	"EngineBuild": 6705,
 	"Data": {
-	"ProductName": "My Game",
-	"CompanyName": "My Company",
-	"CopyrightNotice": null,
-	"Icon": null,
+	"ProductName": "SS2 Pillars",
+	"CompanyName": "D3khan Games",
+	"CopyrightNotice": "Copyright (c) Emem Akpabio. All rights reserved. Made with Flax Game Engine",
+	"Icon": "1d6f2dc94f1cce93bcc1789fc14b0b49",
 	"FirstScene": "74a68a984824b4510d12589f199ad68f",
 	"NoSplashScreen": false,
 	"SplashScreen": null,
@@ -23,15 +23,15 @@
 	"Streaming": "032ffca740c9d866409f84b148390543",
 	"CustomSettings": null,
 	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
-	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973",
-	"LinuxPlatform": "1bf4eedd41508974d6646e8faa55420a",
+	"UWPPlatform": null,
+	"LinuxPlatform": null,
 	"PS4Platform": null,
 	"XboxOnePlatform": null,
 	"XboxScarlettPlatform": null,
-	"AndroidPlatform": "f815fa4140740ea170371b83471ed9f3",
+	"AndroidPlatform": null,
 	"SwitchPlatform": null,
 	"PS5Platform": null,
-	"MacPlatform": "c781c32b43f9bdfa520340a7b52ee615",
-	"iOSPlatform": "ae21da2b4ef20d43222715a13e3bd70a"
+	"MacPlatform": null,
+	"iOSPlatform": null
 }
 }
